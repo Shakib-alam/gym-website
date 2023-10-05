@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Blinker&family=Borel&family=Caprasimo&family=Homemade+Apple&family=Inter:wght@500&family=Josefin+Sans:wght@100&family=Noto+Sans+Osmanya&family=Oooh+Baby&family=Poppins:wght@400;700&family=Questrial&family=Roboto:wght@400;700&family=Ruwudu:wght@400;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Upper footer*/
+.footer{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.icon i{
+    padding: 0px 6px;
+}
+
+/*Navigation menu*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.navbar ul{
+    margin-top: 25px;
+   margin-right: 60px;
+}
+.navbar ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+.logo img{
+    width: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Blinker', sans-serif;
+    padding: 10px 20px;
+    color: rgb(88, 81, 81);
+}
+.active{
+    border:1px solid green;
+    border-radius: 5px;
+    color: cyan !important;
+}
+.navbar ul li a:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+    color: cyan;
+}
+.toggle i{
+  margin-right: 20px;
+    display: none;
+   
+}
+#chek{
+    display: none;
+}
+
+
+
+
+/*Carousel*/
+.container{
+    margin-bottom: 10px;
+}
+
+/*registration*/
+.registration h1{
+    text-align: center;
+    color: yellowgreen;
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registration a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 140px;
+    padding: 13px 30px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 255, 255);
+}
+
+/*Trainer*/
+.tranier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.tranier h1{
+    font-family:'Poppins', sans-serif ;
+    color: navy;
+}
+.trainer-image{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.trainer-image .img{
+    width: 25%;
+    position: relative;
+}
+.trainer-image .img img{
+    width: 100%;
+    margin: 14px 0px;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+.about{
+    position:absolute;
+    bottom: 0px;
+    color: white;
+    font-family:'Poppins', sans-serif ;
+}
+.about h4{
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+.name{
+    background-color: black;
+    opacity: 0.7;
+}
+.about-trainer{
+    background-color: black;
+    opacity: 0.7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/*Aparts*/
+.aparts{
+    margin: 30px 0px;
+}
+.aparts h2{
+    text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
+.first-aparts{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.first-aparts div{
+    width: 30%;
+    margin: 10px 0px;
+}
+.first-aparts h4{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+    color: cyan;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.first-aparts p{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(59, 56, 56);
+}
+
+/*Workout*/
+.workout{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 80px 30px 15px 30px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-workout{
+    width: 50%;
+}
+.about-workout a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 18px;
+    background-color: rgb(0, 217, 255);
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.workout-image{
+    width: 35%;
+}
+.workout-image img{
+    width: 100%;
+    border-radius: 2px;
+}
+
+/*testomonial*/
+.testomonial{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.first-testomonial{
+    display: flex;
+    flex-direction: column;
+    font-family:'Poppins', sans-serif;
+    width: 100vw;
+    align-items: center; 
+    justify-content:center;
+}
+.testomonial-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+}
+.testomonial-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.first-testomonial #para{
+    text-align: center;
+    width: 300px;
+   border-width: 5px;
+   position: relative;
+  
+}
+#para::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 1px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+#para::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* Schedule */
+.schedule{
+    width: 100vw;
+    background-color: gray;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.schedule-heading h3{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    color: wheat;
+}
+.weekly-shedule{
+    display: flex;
+    font-family:'Poppins', sans-serif ;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.weekly-shedule h5{
+    color: mediumspringgreen;
+}
+.schedule h4{
+    color: azure;
+}
+.class-activity{
+    font-family:'Poppins', sans-serif;
+}
+
+/*contact*/
+.contact{
+background-color: rgb(66, 211, 21);
+padding: 20px 30px;
+font-family:'Poppins', sans-serif;
+}
+.contact-icon i{
+    padding: 20px;
+}
+
+/*Sign-in*/
+
+.from{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  
+   }
+   .input{
+    width: 50%;
+    background-color: rgba(58, 58, 185, 0.699);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px gray;
+   }
+   .input h2{
+    text-align: center;
+    margin: 10px 0px 35px 0px;
+   }
+   .input input{
+    width: 90%;
+    margin-left: 20px;
+    padding: 20px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+   background-color: rgba(255, 251, 251, 0.849);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .input label{
+    margin-left: 20px;
+    color: cyan;
+   }
+   #duration{
+    width: auto;
+   }
+   #city{
+    width: 40%;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+
+   }
+   .btn{
+    display: block;
+    margin: auto;
+    border: none;
+    width: 30%;
+    padding: 14px;
+    background-color: rgb(0, 68, 255);
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 10px;
+   }
+
+   /*sign-up*/
+   .sign-up{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.sign-up-form{
+    background-color: rgba(132, 0, 255, 0.705);
+    width: 50%;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px gray;
+}
+.sign-up-form h2{
+    text-align: center;
+    padding: 26px 12px;
+}
+.sign-up-form input{
+    width: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 12px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 251, 251, 0.849);
+}
+.sign-up-form label{
+    margin-left: 20px;
+    color: cyan;
+}
+.btn1{
+    display: block;
+    margin: auto;
+    border: none;
+    width: 30%;
+    padding: 14px;
+    background-color: rgb(0, 68, 255);
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+/*about*/
+.about-image{
+    width: 100vw;
+    position: relative;
+    width: 100vw;
+    height: 45vh;
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.about-heading{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 30%;  
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.gym-logo{
+    width: 120px;
+   
+}
+.logo-png{
+    margin: auto;
+    align-self: center;
+    text-align: center;
+}
+.logo-png p{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 10px;
+}
