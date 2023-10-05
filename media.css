@@ -1,0 +1,118 @@
+@media (max-width:576px) {
+    
+        .footer{
+            justify-content:start;
+
+        }
+        .first-aparts{
+            flex-direction: column;
+            align-items: center;
+        }
+        .first-aparts div{
+            width: 80%;
+        }
+        .about-heading{
+            left: 10%;
+        }
+       
+       
+    
+}
+@media (max-width:992px) {
+    .navbar ul{
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .navbar ul li{
+        padding: 4px;
+       
+    }
+    .navbar ul li a{
+        padding: 12px 14px;
+    }
+}
+@media (max-width:760px) {
+    
+    
+    .nav-items{
+       display: block;
+        background-color: gray;
+       padding: 20px;
+       width: 100vw;
+       height: 50vh;
+       position: fixed;
+       left: -100%;
+       top: 16%;
+       z-index: 3;
+      
+     
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 16px;
+
+      
+
+    }
+    .navbar ul li a{
+       padding: 14px 90px;
+       color: cyan;
+       
+    }
+    .toggle i{
+        display: inline-block;
+    }
+    #chek:checked ~.toggle i::before{
+        content: "\f00d";
+    }
+    .active{
+        color: rgb(82, 79, 79) !important;
+    }
+   #chek:checked ~.nav-items{
+    left: 0%;
+    transition: all 0.6s ease;
+
+   }
+   .workout{
+    flex-direction: column-reverse;
+    padding: 20px 10px 20px 10px;
+   
+   }
+   .about-workout{
+    width: 100%;
+    margin-top: 20px;
+   }
+  
+   .workout-image{
+    width: 100%;
+   }
+   .weekly-shedule{
+   flex-wrap: wrap;
+   }
+
+   .input{
+    width: 90%;
+   }
+   .sign-up-form{
+    width: 90%;
+   }
+}
+@media (max-width:928px) {
+    .trainer-image{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trainer-image .img{
+        width: 90%;
+    }
+    .testomonial{
+        flex-direction: column;
+        width: 80vw;
+        padding: 10px 0px;
+    }
+    .first-testomonial{
+        margin-bottom: 14px;
+    }
+}
